@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 5%;
+}
+
+.adminteam {
+    margin-left: 5%;
+}
+
+.mdl-layout__header {
+    background-color: #d32f2f;
+}
+
+.mdl-layout__tab-bar {
+    background-color: #9a0007;
+}
+
+.video {
+    min-height: 839px;
+    margin-left: 10%;
+}
+
+.mdl-layout__content {
+    background-color: lightgrey;
+}
+
+.page-content {
+    animation: fade 2s forwards;
+}
+
+.white {
+    color: #fff;
+}
+
+.image {
+    background-image: url("../img/WhatsApp Image 2017-06-15 at 11.15.08 AM.jpg");
+    height: 200px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
